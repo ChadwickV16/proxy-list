@@ -7,7 +7,7 @@ curl_close($ch);
 
 $proxy = '@<td>(.*?)</td>@si';
 
-preg_match_all($proxy ,$result, $proxy_cikti);
+preg_match_all($proxy, $result, $proxy_cikti);
 
 for ($i = 0; $i < 1197; $i++) {
 
